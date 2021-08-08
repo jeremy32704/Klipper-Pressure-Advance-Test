@@ -2,6 +2,9 @@
 ;
 ; Notice: This can't be printed with S3D because it does not accept
 ; the Klipper specific code. Use OctoPrint or try some other host.
+
+START_PRINT
+
 G29
 G1 Z5 F1500
 ; printing 20 sections for pa from 0.0000 to 0.6000 in steps of 0.0300
@@ -1540,3 +1543,5 @@ G1 Z2
 G90
 G1 X0 Y180 F7200
 M106 S0
+
+END_PRINT
